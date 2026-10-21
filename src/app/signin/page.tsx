@@ -58,7 +58,7 @@ const SignInContent = () => {
             const msg =
                 err instanceof Error
                     ? err.message
-                    : "সাইন ইন করতে সমস্যা হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।";
+                    : "সাইন ইন করতে সমস্যা হয়েছে। আবার চেষ্টা করুন।";
             setErrorMsg(msg);
             toast.error(msg);
             console.error(err);
