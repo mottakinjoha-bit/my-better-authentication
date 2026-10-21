@@ -28,7 +28,7 @@ const SignInContent = () => {
     useEffect(() => {
         if (searchParams.get("redirected") === "true") {
             toast.error(
-                "পণ্যের বিস্তারিত তথ্য দেখতে অনুগ্রহ করে প্রথমে সাইন ইন করুন",
+                "পণ্যের বিস্তারিত তথ্য দেখতে প্রথমে সাইন ইন করুন",
             );
         }
     }, [searchParams]);
