@@ -7,6 +7,7 @@ The application includes user authentication, protected product details, categor
 Live Demo
 
 Live Link: https://my-better-authentication-one.vercel.app/
+
 GitHub Repository: https://github.com/mottakinjoha-bit/my-better-authentication
 
 Technologies Used
