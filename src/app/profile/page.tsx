@@ -22,11 +22,11 @@ const ProfilePage = () => {
     const handleSignOut = async () => {
         try {
             await signOut();
-            toast.success("সাইন আউট সফল হয়েছে");
+            toast.success("সাইন আউট সফল");
             router.push("/");
             router.refresh();
         } catch {
-            toast.error("সাইন আউট ব্যর্থ হয়েছে");
+            toast.error("সাইন আউট ব্যর্থ");
         }
     };
 
