@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+বাজার দর (BazarDor)
 
-## Getting Started
+BazarDor is a responsive web application that helps users explore the latest prices of essential daily commodities in Bangladesh. It provides a simple and user-friendly interface for viewing product prices, comparing market rates across different bazaars, tracking price changes, and exploring product categories.
 
-First, run the development server:
+The application includes user authentication, protected product details, category-based browsing, and profile management to deliver a complete market price tracking experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Live Link: https://my-better-authentication-one.vercel.app/
+GitHub Repository: https://github.com/mottakinjoha-bit/my-better-authentication
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Technologies Used
+Next.js — Application framework and page routing using the App Router.
+React — Component-based user interface development.
+TypeScript — Type safety and maintainable code.
+Tailwind CSS — Responsive styling and layout design.
+Better Auth — User authentication and account management.
+React Hot Toast — Notifications for authentication, validation, and user actions.
+JSON — Product information and market price data.
+Vercel — Application deployment and hosting.
+Key Features
+1. Responsive User Interface
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The application is designed to work across mobile phones, tablets, laptops, and desktop screens. Its navigation, product grids, hero section, and other components adapt to different screen sizes.
 
-## Learn More
+2. Product Price Tracking
 
-To learn more about Next.js, take a look at the following resources:
+Users can explore essential commodities, including rice, vegetables, fish, meat, eggs, and cooking oil. Each product card displays its name, unit, current price, and percentage change.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Daily Price Changes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Dedicated sections highlight the top six products with increasing prices and the top six products with decreasing prices. Price change indicators help users understand market trends at a glance.
 
-## Deploy on Vercel
+4. Product Details and Market Comparison
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Authenticated users can access individual product detail pages. These pages display product descriptions, category information, minimum prices, maximum prices, average prices, and market-specific prices across different bazaars.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. Category-Based Browsing and Sorting
+
+Users can browse products by category and sort them by default order, lowest price, or highest price. Price sorting uses numeric values to ensure correct ordering, including prices displayed with Bengali numerals.
