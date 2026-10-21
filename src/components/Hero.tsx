@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import heroImage from "@/assets/bazar-hero.png";
 
 const getBengaliDate = (): string => {
     return new Date().toLocaleDateString("bn-BD", {
@@ -39,7 +38,7 @@ const Hero = () => {
            
             <div className="w-48 sm:w-56 md:w-80 shrink-0">
                 <Image
-                    src={heroImage}
+                    src="/my-app/src/assets/bazar-hero.jpeg"
                     alt="Hero Image"
                     width={500}
                     height={500}
